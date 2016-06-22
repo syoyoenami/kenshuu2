@@ -1,0 +1,18 @@
+package kenshuu4;
+
+import java.util.Arrays;
+
+public class kennshuu4 {
+	public static void main(String args[])
+	{
+		String[] eisu = { "1", "6", "2", "S", "a", "Q", "9", "W", "Z", "5",
+				"B", "y", "H", "3", "L", "4", "7", "8", "U", "P" };
+		char ch = 0;
+		char chU = Character.toUpperCase(ch);
+		Arrays.sort(eisu);
+
+		for (String f : eisu) {
+			System.out.print(f + " ");
+		}
+	}
+}

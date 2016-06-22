@@ -1,0 +1,45 @@
+package kenshuu2.java;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class kennshuu2 {
+
+	public static void main(String[] args) throws IOException
+	{
+		System.out.println("配列の要素を入力します");
+
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+		String str = br.readLine();
+		int num = Integer.parseInt(str);
+
+		int test[] = new int[num];
+
+		System.out.println("配列の値を入力します");
+		for (int i = 0; i < num; i++) {
+			str = br.readLine();
+			int tmp = Integer.parseInt(str);
+			test[i] = tmp;
+		}
+
+		System.out.println("配列を昇順に並べます。");
+
+		for (int i = 0; i < num; i++) {
+			System.out.println(test[i] + " ");
+		}
+		for (int i = 0; i < test[i]; i++) {
+			for (int j = 0; test[i] < 3 - i; j++) {
+				if (test[j] > test[j + 1]) {
+					int temp = test[j];
+					test[j] = test[j + 1];
+					test[j + 1] = temp;
+				}
+			}
+		}
+		for (int k = 0; k < test[k]; k++) {
+			System.out.print(test[k] + " ");
+		}
+	}
+}

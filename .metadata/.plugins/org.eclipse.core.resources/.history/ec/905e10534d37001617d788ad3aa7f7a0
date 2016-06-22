@@ -1,0 +1,19 @@
+package kenshuu4;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class kennshuu4 {
+	public static List<String> getUpperAlphabets() {
+		final int ALPHABET_SIZE = 'Z' - 'A';
+		char alphabet = 'A';
+		
+		List<String> upperAlphabets = new ArrayList<String>();
+		for (int i = 0; i <= ALPHABET_SIZE; i++) {
+			upperAlphabets.add(String.valueOf(alphabet++));
+		}
+		return upperAlphabets;
+	}
+}
+
+

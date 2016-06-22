@@ -1,0 +1,16 @@
+package kenshuu4;
+
+import java.util.Arrays;
+
+public class kennshuu4 {
+	public static void main(String args[])
+	{
+		String[] eigo = { "1", "6", "2" };
+
+		Arrays.sort(eigo);
+
+		for (String f : eigo) {
+			System.out.print(f+"");
+		}
+	}
+}

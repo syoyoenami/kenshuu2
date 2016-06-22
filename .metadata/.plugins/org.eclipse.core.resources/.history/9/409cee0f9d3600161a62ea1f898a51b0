@@ -1,0 +1,18 @@
+package src.main.java;
+
+public class Flowchar1 {
+
+	public static void main(String[] args) {
+		System.out.println("任意の数値を入力します");
+		int a = new java.util.Scanner(System.in).nextInt();
+		System.out.println(a);
+		int b = new java.util.Scanner(System.in).nextInt();
+		System.out.println();
+		int c = new java.util.Scanner(System.in).nextInt();
+		System.out.println(c);
+		int d = new java.util.Scanner(System.in).nextInt();
+		System.out.println(d);
+	}
+}
+
+		
