@@ -1,0 +1,33 @@
+package Test;
+
+class test
+{
+	int num;
+	double gas;
+
+	void show()
+	{
+		System.out.println("ナンバーは" + num + "です。");
+		System.out.println("ガスは" + gas + "です。");
+	}
+
+	void showcar()
+	{
+		System.out.println("車の情報を表示します。");
+		show();
+	}
+}
+
+class abc
+{
+	public static void main(String[] args)
+	{
+		test test1;
+		test1 = new test();
+
+		test1.num = 1234;
+		test1.gas = 20.5;
+
+		test1.showcar();
+	}
+}

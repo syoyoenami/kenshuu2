@@ -1,0 +1,32 @@
+package Test;
+
+class test
+{
+	int num;
+	double gas;
+
+	void setNumGas(int n,double g)
+	{
+		num = n;
+		gas = g;
+		
+		System.out.println("車のナンバーを" + num + "にガソリン量を"+gas+"にしました。");
+		
+	}
+
+}
+
+class test2
+{
+	public static void main(String[] args)
+	{
+		test.test1 = new test();
+		
+		int number = 1234;
+		double gasoline = 20.5;
+		
+		test1.setNumGas(number,gasoline);
+		
+		
+	}
+}

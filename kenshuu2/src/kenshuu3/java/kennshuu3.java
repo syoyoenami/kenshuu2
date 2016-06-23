@@ -2,6 +2,7 @@ package kenshuu3.java;
 
 public class kennshuu3 {
 	public static void main(String[] args) {
+		System.out.println("１～１００までの乱数を表示します。");
 		int r;
 		int[] score;
 		score = new int[99];
@@ -11,6 +12,7 @@ public class kennshuu3 {
 			System.out.print(score[i] + " ");
 		}
 		System.out.println("");
+		System.out.println("昇順に並び替えます。");
 		for (int i = 0; i < 98; i++) {
 			for (int j = 0; j < 98 - i; j++) {
 				if (score[j] > score[j + 1]) {

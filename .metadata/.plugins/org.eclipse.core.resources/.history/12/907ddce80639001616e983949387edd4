@@ -1,0 +1,24 @@
+package kenshuu5;
+
+public class kennshuu5 {
+	public static void main(String[] args)
+	{
+		int cart[][] = {
+				{ 07, 1, 2000 }, { 06, 2, 500 }, { 11, 3, 3000 }
+		};
+		int sum = 0;
+		for (int i = 0; i < cart.length; i++) {
+			sum += cart[i][1] * cart[i][2];
+		}
+		if (sum < 2000) {
+			int num = 180;
+			sum += num;
+		}
+		else {
+			System.out.println("送料はカウントされません。金額" + sum);
+
+		}
+
+		System.out.println("合計金額は" + sum + "です。");
+	}
+}

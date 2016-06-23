@@ -1,0 +1,23 @@
+package Test;
+
+ class test
+{
+	int num;
+	double gas;
+}
+
+class Test
+{
+	public static void main(String[] args)
+	{
+		test test1;
+		test1 = new test();
+		
+		test1.num = 1234;
+		test1.gas = 20.5;
+		
+		System.out.println("ナンバーは"+test1.num+"です。");
+		System.out.println("ガスは"+test1.gas+"です。");
+		
+	}
+}
