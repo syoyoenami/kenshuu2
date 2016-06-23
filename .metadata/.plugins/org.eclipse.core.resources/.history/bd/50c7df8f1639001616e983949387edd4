@@ -32,14 +32,14 @@ public class kennshuu5 {
 			sum += cart[i][1] * cart[i][2];
 		}
 		if (sum < 2000) {
-			System.out.println("2000円未満なので送料180円込みで" + (sum += 180) + "円です。");
+			System.out.println("送料180円を足して" + (sum += 180) + "です。");
 
 		}
 		else {
-			System.out.println("送料はカウントされません。金額" + sum + "円です。");
+			System.out.println("送料はカウントされません。金額" + sum);
 
 		}
 
-		System.out.println("合計金額は" + sum + "円です。");
+		System.out.println("合計金額は" + sum + "です。");
 	}
 }

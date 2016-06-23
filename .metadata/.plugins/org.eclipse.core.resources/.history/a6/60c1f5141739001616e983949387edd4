@@ -36,10 +36,10 @@ public class kennshuu5 {
 
 		}
 		else {
-			System.out.println("送料はカウントされません。金額" + sum + "円です。");
+			System.out.println("送料はカウントされません。金額" + sum);
 
 		}
 
-		System.out.println("合計金額は" + sum + "円です。");
+		System.out.println("合計金額は" + sum + "です。");
 	}
 }
